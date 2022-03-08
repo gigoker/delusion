@@ -1,0 +1,37 @@
+a,
+h1 {
+  color: aqua;
+  font-size: 30px;
+  text-align: center;
+  border: 10px solid blueviolet;
+  margin: 10px;
+  padding: 30px;
+}
+h2 {
+  text-align: inherit;
+}
+h3 {
+  border-image-width: 1ch;
+}
+.col {
+  color: darkolivegreen;
+  font-size: 50px;
+  padding-inline: 50px;
+}
+#coll {
+  color: dodgerblue;
+}
+ol {
+  border-right: 5px solid gray;
+  width: 150px;
+  margin: 0;
+  padding: 20px;
+}
+body {
+  margin: 0;
+}
+
+#box {
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+}
