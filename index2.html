@@ -5,37 +5,74 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>현병이의 예습!</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <h1><strong>두번째</strong> <u>페이지</u>입니다.</h1>
+    <h1><strong>두번째</strong> <u>페이지</u>입니다.</h1> 
+    <h1>두번째 제목입니다.</h1>
     <br>
-    <div>이 페이지는 무엇을 하는 것일까요?</div>
+    <h2><div>이 페이지는 무엇을 하는 것일까요?</div></h2>
     <p>단란을 나누어봅시다.</p><p style="margin: top 40px;">여백도 만들어 보았습니다. 몇개의 단락인가요?</p>
-    <P>이미지도 넣어봅시다.<img src="../pic/5g"></P>
-    <l1><a href="1. 아양주공" style="color:aqua">CSS</a></l1>
-    <l2>2. 103동</l2>
-    <l3>3. 408호</l3>
+    <P>이미지도 넣어봅시다.<h3><img src="./pic/5G.PNG"></h3></P>
+   
+<a>1. 아양주공</a>
+<b class="col">2. 103동</b>
+<strong><a class="col" id="coll">3. 408호</strong></a>
     <ol>
         <li>한경대의 주소는</li>
         <li>석정동</li>
         <li>327</li>
     </ol>
-    <div>아래의 링크는 op.gg로 이동합니다.</div>
+    <div>아래의 링크는 op.gg로 이동합니다.
+        <li>test</li>
+    </div>
     <br>
-    <a href="https://www.op.gg/champions">op.gg로 바로 이동</a>
-    <br>
-    <div>아래의 링크는 op.gg를 새창으로 띄웁니다.</div>
-    <br>
-    <a href="https://www.op.gg/champions" target="_blank">op.gg 새창 띄우기</a>
-    
+    <div id="box">
+        <a href="https://www.op.gg/champions">op.gg로 바로 이동</a>
+        <div>아래의 링크는 op.gg를 새창으로 띄웁니다.</div>
+        <a href="https://www.op.gg/champions" target="_blank">op.gg 새창 띄우기</a>
+    </div>
+    <form>
+        <input type="text" placeholder="이름을 입력하세요.">
+        <input type="email" value="@">
+        <input type="tel">
+        <input type="text">
+        <button type="submit">전송하기</button>
+
+    </form>
 </body>
-<style>
-    a {
+<!-- <style>
+    a, h1 {
         color: aqua;
-    }
-    h1 {
-        font-size: 30px;
+        font-size: 50px;
         text-align: center;
+        border: 3px solid blueviolet;
+        margin: 1px;
+        width: 500px;
     }
-</style>
+    
+    h2 {
+        text-align: inherit;
+    }
+    h3{
+        border-image-width: 1ch;
+    }
+    .col{
+        color:darkolivegreen;
+        font-size: 50px ;
+        padding-inline: 50px;
+    }
+    #coll{
+        color:dodgerblue;
+    }
+    ol{
+        border-right: 5px solid gray;
+        width: 150px;
+        margin: 0;
+        padding: 20px;
+    }
+    body{
+        margin: 0;
+    }
+</style> -->
 </html>
