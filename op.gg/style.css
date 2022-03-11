@@ -1,3 +1,23 @@
-.move {
-  display: grid;
+body {
+  margin: 0;
+}
+/* 1.맨위 */
+.move1 {
+  display: flex;
+}
+/* 1.맨위 안 */
+.move2 {
+  display: flex;
+}
+/* 2.두 번째 줄 */
+.move3 {
+  display: flex;
+  border: 3px red;
+}
+.title1 {
+  color: white;
+  border: 5px;
+  background-color: black;
+  padding: 0px 10px;
+  font-size: 20px;
 }
