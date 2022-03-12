@@ -4,20 +4,82 @@ body {
 /* 1.맨위 */
 .move1 {
   display: flex;
+  justify-content: space-between;
+  background-color: black;
+}
+.Ptitle {
+  text-decoration: none;
+  color: white;
+  border: 20px 20px;
+  padding: 0px 10px;
+  font-size: 20px;
+  background-color: rgb(81, 131, 232);
+}
+.title1 {
+  text-decoration: none;
+  color: white;
+  border: 10px;
+  padding: 0px 10px;
+  font-size: 20px;
+  background-color: black;
 }
 /* 1.맨위 안 */
-.move2 {
+.move1_left {
+  display: flex;
+}
+.move1_right {
   display: flex;
 }
 /* 2.두 번째 줄 */
-.move3 {
+.move2 {
   display: flex;
+  padding-left: 200px;
+  margin: 10px 10px;
   border: 3px red;
+  justify-content: f;
 }
-.title1 {
+.title2 {
+  text-decoration: none;
   color: white;
-  border: 5px;
-  background-color: black;
-  padding: 0px 10px;
-  font-size: 20px;
+  padding: 10px 20px;
+}
+/* 이미지 */
+.img {
+  display: flex;
+  justify-content: center;
+  margin: 40px 10px;
+}
+/* 검색창 */
+.find {
+  display: flex;
+  justify-content: center;
+}
+/* 인기글 */
+.main {
+  display: flex;
+  background-color: white;
+  width: 1000px;
+  padding-left: 500px;
+}
+.talk {
+  color: black;
+}
+/* etc */
+.etc {
+  display: flex;
+  padding-left: 400px;
+}
+.etcfont {
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+  padding: 10px 5px;
+}
+/* 역사 */
+.history {
+  padding-left: 400px;
+  display: flex;
+  color: white;
+  font-size: 12px;
+  width: 1000px;
 }
