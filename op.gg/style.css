@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+}
+/* 1.맨위 */
+.move1 {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+}
+.Ptitle {
+  text-decoration: none;
+  color: white;
+  border: 20px 20px;
+  padding: 0px 10px;
+  font-size: 20px;
+  background-color: rgb(81, 131, 232);
+}
+.title1 {
+  text-decoration: none;
+  color: white;
+  border: 10px;
+  padding: 0px 10px;
+  font-size: 20px;
+  background-color: black;
+}
+/* 1.맨위 안 */
+.move1_left {
+  display: flex;
+}
+.move1_right {
+  display: flex;
+}
+/* 2.두 번째 줄 */
+.move2 {
+  display: flex;
+  padding-left: 200px;
+  margin: 10px 10px;
+  border: 3px red;
+}
+.title2 {
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+}
+/* 이미지 */
+.img {
+  display: flex;
+  justify-content: center;
+  margin: 40px 10px;
+}
+/* 검색창 */
+.find {
+  display: flex;
+  justify-content: center;
+}
+/* 인기글 */
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  background-color: white;
+  width: 1100px;
+  position: relative;
+  left: 400px;
+}
+.object {
+  display: flex;
+  flex: 1 1 40%;
+  flex-direction: row;
+  text-decoration: none;
+  border: 0.01mm solid cornsilk;
+  padding: 5px 2px;
+  width: 550px;
+}
+.talk {
+  width: 1100px;
+  color: black;
+  padding: 5px 10px;
+}
+/* etc */
+.etc {
+  display: flex;
+  padding-left: 400px;
+}
+.etcfont {
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+  padding: 10px 5px;
+}
+/* 역사 */
+.history {
+  padding-left: 400px;
+  display: flex;
+  color: white;
+  font-size: 12px;
+  width: 1000px;
+}
